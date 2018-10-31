@@ -118,12 +118,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role to create\n
-- **name** is mandatory
-- **description** is optional (default = \"\")
-- **rights_level** is mandatory (lower number = higher priority)
-- **endpoints** is the list of numeric endpoint ids the specified role can access
-{% endapi-method-parameter %}
+<br/>The details of the role {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -169,12 +164,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role to create\n
-- **name** that needs to be edited
-- **description** that needs to be edited
-- **rights_level** that needs to be edited
-- **endpoints** is the list of numeric endpoint ids the specified role can access
-{% endapi-method-parameter %}
+<br/>The details of the role {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -400,13 +390,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="user" type="None" required=true%}
-<br/>The details of the user to create\n
-- **firstName** is mandatory, the first name of the new user
-- **lastName**  is mandatory, the last name of the new user
-- **email** is mandatory, must be unique among all users
-- **password** is mandatory, the initial password for the new user
-- **comapny_id** is mandatory, the referenced company must exist"
-{% endapi-method-parameter %}
+<br/>The details of the user {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -484,12 +468,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="user" type="None" required=true%}
-<br/>The details of the updated user:
-  - **firstName** is optional, the new first name of the updated user
-  - **lastName** is optional, the new last name of the updated user
-  - **email** is optional, the new email address of the updated user
-  - **password** is optional, the new password for the updated user
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -689,10 +668,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="plotview" type="None" required=true%}
-<br/>The details of the plotview to create.
-- **name** is mandatory, the name of the new plotView
-- **plotViewJson** is mandatory, a JSON with the detailed specification of this plotview"
-{% endapi-method-parameter %}
+<br/>The details of the plotv{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -772,10 +748,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="plotview" type="None" required=true%}
-<br/>The details of the plotview update
-- **name** is optional, the new name of the plotview
-- **plotViewJson** is optional, the updated JSON specifications for the specified plotview
-{% endapi-method-parameter %}
+<br/>The details of the plotv{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -863,11 +836,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="project" type="None" required=true%}
-<br/>The details of the project to create\n
-- **name** is mandatory
-- **description** is optional (default = \"\")
-- **comapny_id** is mandatory and the referenced company must exist
-{% endapi-method-parameter %}
+<br/>The details of the proje{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -957,10 +926,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="project" type="None" required=true%}
-<br/>The details of the update to an existing project:
-- **name** is optional, a new name for the referenced project
-- **description** is optional, a new description for the referenced project
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1094,13 +1060,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role to create\n
-- **name** is mandatory
-- **description** is optional (default = \"\")
-- **rights_level** is mandatory (lower number = higher priority)
-- **authed_endpoints** is the list of numeric endpoint ids the specified role can access
-- **authed_tags** is the list of TagAuths the specified role can access
-{% endapi-method-parameter %}
+<br/>The details of the role {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1148,12 +1108,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role to create\n
-- **name** that needs to be edited
-- **description** that needs to be edited
-- **rights_level** that needs to be edited
-- **endpoints** is the list of numeric endpoint ids the specified role can access
-{% endapi-method-parameter %}
+<br/>The details of the role {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1337,10 +1292,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapointkey" type="None" required=true%}
-<br/>The details of the new data point key.
-- **name** is mandatory, the name of the new data point key
-- **description** is optional, a textual description for the data point key (defaults to: \"\")
-{% endapi-method-parameter %}
+<br/>The details of the new d{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1432,10 +1384,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapointkey" type="None" required=true%}
-<br/>The details of the updated data point key.
-- **name** is optional, the updated name for the data point key
-- **description** is optional, the updated description for the data point key
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1662,8 +1611,6 @@
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
 <br/>The details of the tag.
-- **key** is mandatory, the key of the tag
-- **value** is mandatory, the value of the key
 {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
@@ -1756,10 +1703,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
-<br/>The details of the updated tag
- - **key** is optional, the tag's key
- - **value** is optional, the tag's key value"
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1923,7 +1867,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="newalert" type="None" required=true%}
-<br/>The details of the alert to create as documented in the description above.{% endapi-method-parameter %}
+<br/>The details of the alert{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2218,11 +2162,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="component_details" type="object"%}
-<br/>The details of the component to add to the project:
-- **nameEN** [optional], the component's english name
-- **nameDE** [optional], the component's german name
-- **abbreviation** [optional], the component's abbreviated name
-{% endapi-method-parameter %}
+<br/>The details of the compo{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2316,11 +2256,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="component_details" type="object"%}
-<br/>The details of the update to the component.
-- **nameEN** [optional], a new compoonent name in english
-- **nameDE** [optional], a new component name in german
-- **abbreviation** [optional], a new abbreviated component name
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2654,10 +2590,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapoint_details" type="None" required=true%}
-<br/>The details of the update to the data point.
-- **setpoint_min_value** is optional, the minimum allowed value for setpoints and schedules
-- **setpoint_max_value** is optional, the maximum allowed value for setpoints and schedules
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2851,12 +2784,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="renaming" type="None" required=true%}
-<br/>The details of the datapoint renaming.
-- **renaming** is mandatory, the renaming for the datapoint referenced by the following parameters
-- **dataPointID** is mandatory, the name/ID of the datapoint to rename
-- **project_id** is mandatory, the numeric id of the project in which the datapoint referenced by _dataPointID_ must exist
-- **datapointkey_id** is mandatory, the numeric id of the datapointkey with which to associate the renaming"
-{% endapi-method-parameter %}
+<br/>The details of the datap{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2902,9 +2830,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="renaming" type="None" required=true%}
-<br/>The details of the data point renaming.
-- **renaming** is optional, the updated renaming for the data point referenced by the following parameters
-{% endapi-method-parameter %}
+<br/>The details of the data {% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -3046,9 +2972,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
-<br/>The details of the updated tag.
-- **confirmed** is required, flags a tag as correct or incorrect.
-{% endapi-method-parameter %}
+<br/>The details of the updat{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -3213,7 +3137,7 @@ Since the successful writing of a setpoints in a schedule may require several at
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="schedule" type="None" required=true%}
-<br/>The details of the schedule to write{% endapi-method-parameter %}
+<br/>The details of the sched{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -3313,7 +3237,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="schedule" type="None" required=true%}
-<br/>The details of the schedule to update{% endapi-method-parameter %}
+<br/>The details of the sched{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
