@@ -2160,7 +2160,7 @@ Add a new component.
 <br/>{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
-<br/>{% api-method-parameter name="component_details" type="None"%}
+<br/>{% api-method-parameter name="component_details" type="object"%}
 <br/>{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
@@ -2254,7 +2254,7 @@ Edit a component in the specified project.
 <br/>{% api-method-query-parameters %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
-<br/>{% api-method-parameter name="component_details" type="None"%}
+<br/>{% api-method-parameter name="component_details" type="object"%}
 <br/>{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
