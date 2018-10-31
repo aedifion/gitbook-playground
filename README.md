@@ -3,12 +3,15 @@
 <br/>{% api-method-summary %}<br/>
 Get a list of available endpoints.
 <br/>{% endapi-method-summary %}
+
 <br/>{% api-method-description %}
 <br/>Returns a list of available endpoint IDs and their names.
 <br/>{% endapi-method-description %}
+
 <br/>{% api-method-spec %}
 <br/>{% api-method-request %}
 <br/>{% endapi-method-request %}
+
 <br/>{% api-method-response %}
 <br/>{% api-method-response-example httpCode=200 %}
 <br/>{% api-method-response-example-description %}
@@ -21,9 +24,11 @@ Get a list of available endpoints.
 <br/>{% api-method-response-example-description %}
 <br/>Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to get.
 {% endapi-method-response-example-description %}
+
 ```
 
 ```
+
 <br/>{% endapi-method-response-example %}
 <br/>{% endapi-method-spec %}
 <br/>{% endapi-method %}
