@@ -1,3 +1,7 @@
+---
+description: test
+---
+
 # Initial page
 
 {% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
@@ -16,7 +20,7 @@ Returns a list of projects and users defined for the queried company.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="etst" type="string" required=false %}
 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -25,4 +29,6 @@ Returns a list of projects and users defined for the queried company.
 {% api-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
