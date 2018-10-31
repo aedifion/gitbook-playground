@@ -1,12 +1,12 @@
 # Untitled
 
 <br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
-<br/>{% api-method-summary %}<br/>
+<br/>{% api-method-summary %}
 Get a list of available endpoints.
-<br/>{% endapi-method-summary %}
+{% endapi-method-summary %}
 <br/>{% api-method-description %}
-<br/>Returns a list of available endpoint IDs and their names.
-<br/>{% endapi-method-description %}
+Returns a list of available endpoint IDs and their names.
+{% endapi-method-description %}
 <br/>{% api-method-spec %}
 <br/>{% api-method-request %}
 <br/>{% endapi-method-request %}
