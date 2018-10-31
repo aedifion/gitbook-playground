@@ -118,7 +118,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role {% endapi-method-parameter %}
+<br/>The details of the role to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -164,7 +164,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role {% endapi-method-parameter %}
+<br/>The details of the role to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -390,7 +390,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="user" type="None" required=true%}
-<br/>The details of the user {% endapi-method-parameter %}
+<br/>The details of the user to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -468,7 +468,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="user" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the updated user:{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -668,7 +668,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="plotview" type="None" required=true%}
-<br/>The details of the plotv{% endapi-method-parameter %}
+<br/>The details of the plotview to create.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -748,7 +748,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="plotview" type="None" required=true%}
-<br/>The details of the plotv{% endapi-method-parameter %}
+<br/>The details of the plotview update{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -836,7 +836,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="project" type="None" required=true%}
-<br/>The details of the proje{% endapi-method-parameter %}
+<br/>The details of the project to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -926,7 +926,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="project" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the update to an existing project:{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1060,7 +1060,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role {% endapi-method-parameter %}
+<br/>The details of the role to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1108,7 +1108,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="role_definition" type="None" required=true%}
-<br/>The details of the role {% endapi-method-parameter %}
+<br/>The details of the role to create\n{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1292,7 +1292,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapointkey" type="None" required=true%}
-<br/>The details of the new d{% endapi-method-parameter %}
+<br/>The details of the new data point key.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1384,7 +1384,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapointkey" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the updated data point key.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1610,8 +1610,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
-<br/>The details of the tag.
-{% endapi-method-parameter %}
+<br/>The details of the tag.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1703,7 +1702,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the updated tag{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -1867,7 +1866,7 @@
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="newalert" type="None" required=true%}
-<br/>The details of the alert{% endapi-method-parameter %}
+<br/>The details of the alert to create as documented in the description above.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2162,7 +2161,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="component_details" type="object"%}
-<br/>The details of the compo{% endapi-method-parameter %}
+<br/>The details of the component to add to the project:{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2256,7 +2255,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="component_details" type="object"%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the update to the component.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2590,7 +2589,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapoint_details" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the update to the data point.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2784,7 +2783,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="renaming" type="None" required=true%}
-<br/>The details of the datap{% endapi-method-parameter %}
+<br/>The details of the datapoint renaming.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2830,7 +2829,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="renaming" type="None" required=true%}
-<br/>The details of the data {% endapi-method-parameter %}
+<br/>The details of the data point renaming.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -2972,7 +2971,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="None" required=true%}
-<br/>The details of the updat{% endapi-method-parameter %}
+<br/>The details of the updated tag.{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -3137,7 +3136,7 @@ Since the successful writing of a setpoints in a schedule may require several at
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="schedule" type="None" required=true%}
-<br/>The details of the sched{% endapi-method-parameter %}
+<br/>The details of the schedule to write{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
@@ -3237,7 +3236,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="schedule" type="None" required=true%}
-<br/>The details of the sched{% endapi-method-parameter %}
+<br/>The details of the schedule to update{% endapi-method-parameter %}
 <br/>{% endapi-method-body-parameters %}
 <br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
