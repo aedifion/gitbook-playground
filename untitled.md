@@ -1,6 +1,5 @@
 # Untitled
 
-# Initial page
 <br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
 <br/>{% api-method-summary %}<br/>
 Get a list of available endpoints.
