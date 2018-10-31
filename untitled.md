@@ -13,6 +13,7 @@
 {% api-method-response-example-description %}
 Successful operation. A list of all available endpoint IDs and their names is returned.
 {% endapi-method-response-example-description %}
+{% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=401 %}
 {% api-method-response-example-description %}
