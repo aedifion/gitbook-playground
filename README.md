@@ -1,68 +1,107 @@
 # Initial page
-
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
 {% api-method-summary %}
-Get Cakes
+Get a list of available endpoints.
 {% endapi-method-summary %}
-
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Returns a list of available endpoint IDs and their names.
 {% endapi-method-description %}
-
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
 {% endapi-method-headers %}
-
 {% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+{% api-method-body-parameters %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
-
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Successful operation. A list of all available endpoint IDs and their names is returned.
 {% endapi-method-response-example-description %}
-
-```javascript
-{
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=401 %}
 {% api-method-response-example-description %}
-Could not find a cake matching this query.
+Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to get.
 {% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
-}
-```
 {% endapi-method-response-example %}
-{% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
-
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/company" %}
+{% api-method-summary %}
+Get all projects and users defined in the company.
+{% endapi-method-summary %}
+{% api-method-description %}
+Returns a list of projects and users defined for the queried company.
+{% endapi-method-description %}
+{% api-method-spec %}
+{% api-method-request %}
+{% endapi-method-request %}
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Successful operation. Returns a list of roles in the queried project.
+{% endapi-method-response-example-description %}
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
+{% endapi-method-response-example-description %}
+{% endapi-method-response-example %}
+{% endapi-method-spec %}
+{% endapi-method %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/company/roles" %}
+{% api-method-summary %}
+Get all roles defined in the company.
+{% endapi-method-summary %}
+{% api-method-description %}
+Returns a list of roles defined for the queried company.
+{% endapi-method-description %}
+{% api-method-spec %}
+{% api-method-request %}
+{% endapi-method-request %}
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Successful operation. Returns a list of roles in the queried company.
+{% endapi-method-response-example-description %}
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
+{% endapi-method-response-example-description %}
+{% endapi-method-response-example %}
+{% endapi-method-spec %}
+{% endapi-method %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/company/role" %}
+{% api-method-summary %}
+Create a new role for the logged user's company.
+{% endapi-method-summary %}
+{% api-method-description %}
+Creates a new role for the company, user is logged in with.
+{% endapi-method-description %}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% endapi-method-path-parameters %}
+{% api-method-headers %}
+{% endapi-method-headers %}
+{% api-method-query-parameters %}
+{% endapi-method-query-parameters %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="role_definition" type="None" required=True%}
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Successful operation. Returns details of created role.
+{% endapi-method-response-example-description %}
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'post'.
+{% endapi-method-response-example-description %}
+{% endapi-method-response-example %}
+{% endapi-method-spec %}
+{% endapi-method %}
