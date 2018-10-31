@@ -8,6 +8,7 @@
 {% api-method-spec %}
 
 {% api-method-response %}
+
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
 Successful operation. A list of all available endpoint IDs and their names is returned.
@@ -17,6 +18,7 @@ Successful operation. A list of all available endpoint IDs and their names is re
 {% api-method-response-example-description %}
 Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to get.
 {% endapi-method-response-example-description %}
+
 {% endapi-method-response-example %}
 
 {% endapi-method-spec %}
