@@ -1,6 +1,6 @@
 # Initial page
 
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/user" %}
+{% api-method method="patch" host="https://api.aedifion.io" path="/v2/user" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
@@ -44,7 +44,7 @@ Cake successfully retrieved.
 
 ```javascript
 {
-    "name": "Cake's name",
+    "name": "modifying stuff here",
     "recipe": "Cake's recipe name",
     "cake": "Binary cake"
 }
@@ -58,7 +58,7 @@ Could not find a cake matching this query.
 
 ```javascript
 {
-    "message": "Ain't no cake like that."
+    "message": "LETS SEE IF IT BREAKS."
 }
 ```
 {% endapi-method-response-example %}
