@@ -30,13 +30,9 @@ Returns a list of projects and users defined for the queried company.
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Successful operation. Returns a list of roles in the queried project.
-{% endapi-method-response-example-description %}
+{% api-method-response-example-description %}Successful operation. Returns a list of roles in the queried project.{% endapi-method-response-example-description %}
 {% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
-{% endapi-method-response-example-description %}
+{% api-method-response-example-description %}Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.{% endapi-method-response-example-description %}
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
