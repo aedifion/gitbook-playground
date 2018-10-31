@@ -156,7 +156,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the role.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -202,7 +202,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the role that should be deleted.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -246,9 +246,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="user_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the user{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the role{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -292,9 +292,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="user_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the user{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the role{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -342,9 +342,9 @@
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="validity" type="number"%}
-<br/>{% endapi-method-parameter %}
+<br/>The validity for the requested token in hours.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="scope" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>The scope of the requested token.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -544,7 +544,7 @@
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="email" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The user's email address.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -740,7 +740,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="plotview_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the plotview to delete{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -786,7 +786,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="plotview_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the plotview to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -874,7 +874,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project that should be retrieved.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -918,7 +918,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project that should be updated.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -964,7 +964,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project that should be deleted.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1008,7 +1008,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1052,7 +1052,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1098,9 +1098,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the role.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1146,9 +1146,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the role that should be deleted.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1192,9 +1192,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="user_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the user{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the role{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1238,9 +1238,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="user_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the user{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="role_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the role{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1284,7 +1284,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which a new data point key should be created.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1330,7 +1330,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which data point keys should be queried.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1374,9 +1374,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="datapointkey_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the data point key to update.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1422,9 +1422,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="datapointkey_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the data point key to remove.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1468,7 +1468,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which data points should be queried.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1512,7 +1512,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which data points should be queried.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1556,13 +1556,13 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which data points should be queried.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="datapointkey_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the datapointkey.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -1602,7 +1602,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which to add a data point tag.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1648,7 +1648,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which to query data point tags.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1692,9 +1692,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which to update a tag.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="tag_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the tag to update.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1740,9 +1740,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which to delete a tags.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="tag_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the tag to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1786,19 +1786,19 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project for which to query data points by tag.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="key" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The key of the tag.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="value" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>The value of the tag.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="source" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>The source of the tag.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="confirmed" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>The confirmed status of the tag.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -1858,7 +1858,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project on which to create the alert.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1914,7 +1914,7 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project for which alerts should be queried.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -1958,17 +1958,17 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric project id for which to edit an alert.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="alert_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the alert to modify.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="param" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The name of the parameter to change.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="value" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The new value for the specified parameter. Example acceptable values for period are 1s, 5m, 6h, 1w{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2008,9 +2008,9 @@
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project for which to delete the specified alert{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="alert_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the alert to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2057,9 +2057,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project on which to toggle an alarm.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="alert_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the alert to toggle.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2103,15 +2103,15 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project the timeseries belongs to.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="format" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The format of the file uploaded.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="on_error" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>Action upon error.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2151,13 +2151,13 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project for which to add the new component.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="component_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the component to add.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="component_details" type="object"%}
@@ -2199,9 +2199,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project from which to get a component.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the component to get.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2245,9 +2245,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project for which to edit a component.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the component to edit.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2293,9 +2293,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project from which to delete a component.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the component to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2340,7 +2340,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project from which to get components.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2384,17 +2384,17 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project to add datapoint to its component pin.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**componentinproject_id** [mandatory], the numeric id of the component in the project{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="pin_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**pin_id** [mandatory], the id of the pin.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**dataPointID** [mandatory], the alphanumeric id of the datapoint.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2434,17 +2434,17 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project to edit datapoint on its component pin.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**componentinproject_id** [mandatory], the numeric id of the component in the project{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="pin_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**pin_id** [mandatory], the id of the pin.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>**dataPointID** [mandatory], the  alphanumeric id of the datapoint.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2484,15 +2484,15 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project from where to delete the component.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="componentinproject_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the component.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="pin_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the pin.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2537,9 +2537,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the data point to retrieve.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by _dataPointID_ belongs.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2583,9 +2583,9 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The alphanumeric identifier of the datapoint.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="datapoint_details" type="object" required=true%}
@@ -2635,17 +2635,17 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the project from which to query observations for a data point{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>Name/ID of the data point, e.g., *bacnet100-4120-CO2*{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="start" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>Return only observations *after* this date-time"{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="end" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>Return only observations *before* this date-time".{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="max" type="integer"%}
-<br/>{% endapi-method-parameter %}
+<br/>Maximum number of observations to return.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="samplerate" type="string"%}
-<br/>{% endapi-method-parameter %}
+<br/>Desired sampling rate.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2689,9 +2689,9 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID to to mark as favorite{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by _dataPointID_ belongs{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2735,9 +2735,9 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the data point to unset as favorite{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by _dataPointID_ belongs{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2821,7 +2821,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="renaming_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the data point renaming that should be updated.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2867,7 +2867,7 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="renaming_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The id of the renaming to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
@@ -2915,11 +2915,11 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the data point to assign a tag to.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by 'dataPointID' belongs to.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="tag_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the tag which will be assigned to the data point referenced to by 'dataPointID' and 'project_id'.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -2959,15 +2959,15 @@ Returns the last (or respectively next) **max** observations, if either **start*
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="tag_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the tag to update.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the associated data point where the tag will be updated.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by 'dataPointID' belongs to.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% api-method-parameter name="tag" type="object" required=true%}
@@ -3013,15 +3013,15 @@ Details on the error are returned in the 'error' field of the response and 'oper
 <br/>{% api-method-request %}
 <br/>{% api-method-path-parameters %}
 <br/>{% api-method-parameter name="tag_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The unique id of the tag to delete.{% endapi-method-parameter %}
 <br/>{% endapi-method-path-parameters %}
 <br/>{% api-method-headers %}
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the data point from which the tag will be deleted.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project to which the data point identified by 'dataPointID' belongs to.{% endapi-method-parameter %}
 <br/>{% endapi-method-query-parameters %}
 <br/>{% api-method-body-parameters %}
 <br/>{% endapi-method-body-parameters %}
@@ -3076,322 +3076,10 @@ This endpoint implements a no-frills, non-acked, stateless, best-effort write se
 <br/>{% endapi-method-headers %}
 <br/>{% api-method-query-parameters %}
 <br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The dataPointID of the data point for which to write a setpoint.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The numeric id of the project which the data point identified by 'dataPointID' belongs to.{% endapi-method-parameter %}
 <br/>{% api-method-parameter name="value" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
+<br/>The value to write (either a float or 'null' for reset){% endapi-method-parameter %}
 <br/>{% api-method-parameter name="priority" type="integer"%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation. The setpoint operation has been triggerd but may still fail on the remote side, i.e., the building network.
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unsuccessful request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'create'."
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/schedule" %}
-<br/>{% api-method-summary %}<br/>
-/v2/datapoint/schedule
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/> Attempts to write a schedule consisting of different setpoints to the the data point identified by 'dataPointID' and 'project_id'. Returns a unique `reference` for that schedule.
-**Note regarding asynchronous communication:**
-Since the successful writing of a setpoints in a schedule may require several attempts on the local building network, this api call is asynchronous, i.e., this api call returns *before* the process of writing setpoints in a schedule (and acknowledging it) has been fully concluded. Thus, this api call immediately returns a unique reference that can be used by the caller to query status of this schedule using endpoint `/v2/datapoint/schedule/{id}`.
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% api-method-path-parameters %}
-<br/>{% endapi-method-path-parameters %}
-<br/>{% api-method-headers %}
-<br/>{% endapi-method-headers %}
-<br/>{% api-method-query-parameters %}
-<br/>{% api-method-parameter name="dataPointID" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% api-method-parameter name="project_id" type="integer" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% api-method-parameter name="schedule" type="object" required=true%}
-<br/>The details of the schedule to write{% endapi-method-parameter %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation.
-The details of the schedule created according to this operation is returned in the 'resource' field and the 'operation' is set to 'create'.
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unsuccessful request.
-Details on the error are returned in the 'error' field of the response and 'operation' is set to 'create'."
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-<br/>{% api-method-summary %}<br/>
-/v2/datapoint/schedule/{reference}
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/>Returns the details of the referenced schedule.
-
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% api-method-path-parameters %}
-<br/>{% api-method-parameter name="reference" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-path-parameters %}
-<br/>{% api-method-headers %}
-<br/>{% endapi-method-headers %}
-<br/>{% api-method-query-parameters %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation.
-The details of the schedule are returned in the 'resource' field and the 'operation' is set to 'create'.
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unsuccessful request.
-Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'."
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-<br/>{% api-method-summary %}<br/>
-/v2/datapoint/schedule/{reference}
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/>Updates the details of the referenced schedule.
-
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% api-method-path-parameters %}
-<br/>{% api-method-parameter name="reference" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-path-parameters %}
-<br/>{% api-method-headers %}
-<br/>{% endapi-method-headers %}
-<br/>{% api-method-query-parameters %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% api-method-parameter name="schedule" type="object" required=true%}
-<br/>The details of the schedule to update{% endapi-method-parameter %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation.
-The details of the schedule are returned in the 'resource' field and the 'operation' is set to 'create'.
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unsuccessful request.
-Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'."
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-<br/>{% api-method-summary %}<br/>
-/v2/datapoint/schedule/{reference}
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/>Deletes a schedule and clears any setpoints that were written while executing the schedule.
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% api-method-path-parameters %}
-<br/>{% api-method-parameter name="reference" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-path-parameters %}
-<br/>{% api-method-headers %}
-<br/>{% endapi-method-headers %}
-<br/>{% api-method-query-parameters %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation.
-Since this operation is asynchronous, the caller has to check back that the status of the schedule operation transitions to 'terminated' (success) or 'failed' (error during deletion).
-The deleted schedule is returned in the 'resource' field of the result and 'operation' is set to 'delete'.
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unsuccessful request.
-Details on the error are returned in the 'error' field of the response and 'operation' is set to 'delete'."
-
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/components" %}
-<br/>{% api-method-summary %}<br/>
-/v2/components
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/>Gets all the available components to be used in a project.
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation. A list of component ids along with their english and german names are returned in the 'resource' field and the 'operation' is set to 'get'.
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
-<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/component/{component_id}/pins" %}
-<br/>{% api-method-summary %}<br/>
-/v2/component/{component_id}/pins
-<br/>{% endapi-method-summary %}
-<br/>{% api-method-description %}
-<br/>Gets all the defined pins for the component.
-<br/>{% endapi-method-description %}
-<br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% api-method-path-parameters %}
-<br/>{% api-method-parameter name="component_id" type="string" required=true%}
-<br/>{% endapi-method-parameter %}
-<br/>{% endapi-method-path-parameters %}
-<br/>{% api-method-headers %}
-<br/>{% endapi-method-headers %}
-<br/>{% api-method-query-parameters %}
-<br/>{% endapi-method-query-parameters %}
-<br/>{% api-method-body-parameters %}
-<br/>{% endapi-method-body-parameters %}
-<br/>{% endapi-method-request %}
-<br/>{% api-method-response %}
-<br/>{% api-method-response-example httpCode=200 %}
-<br/>{% api-method-response-example-description %}
-<br/>Successful operation. A list of pins and its attributes are returned for the component in the 'resource' field and the 'operation' is set to 'get'.
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% api-method-response-example httpCode=401 %}
-<br/>{% api-method-response-example-description %}
-<br/>Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
-{% endapi-method-response-example-description %}
-<br/>
-```
-
-
-```
-{% endapi-method-response-example %}
-<br/>{% endapi-method-response %}
-<br/>{% endapi-method-spec %}
-<br/>{% endapi-method %}
 <br/>
