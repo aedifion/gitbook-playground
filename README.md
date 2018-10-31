@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 # Initial page<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}<br/>{% api-method-summary %}
-=======
-# Initial page
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
-{% api-method-summary %}
->>>>>>> 7f75a6b8758e74914eb477d32f4f24cada760ced
 Get a list of available endpoints.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -25,7 +19,6 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-<<<<<<< HEAD
 {% api-method method="get" host="https://api.aedifion.io" path="/v2/company" %}<br/>{% api-method-summary %}
 Get all projects and users defined in the company.
 {% endapi-method-summary %}
@@ -2426,5 +2419,3 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-=======
->>>>>>> 7f75a6b8758e74914eb477d32f4f24cada760ced
