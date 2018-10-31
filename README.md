@@ -1,7 +1,4 @@
-# Initial page
-
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
-{% api-method-summary %}
+# Initial page<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}<br/>{% api-method-summary %}
 Get a list of available endpoints.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -9,14 +6,6 @@ Returns a list of available endpoint IDs and their names.
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -30,8 +19,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/company" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/company" %}<br/>{% api-method-summary %}
 Get all projects and users defined in the company.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -52,8 +40,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/company/roles" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/company/roles" %}<br/>{% api-method-summary %}
 Get all roles defined in the company.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -74,8 +61,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/company/role" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/company/role" %}<br/>{% api-method-summary %}
 Create a new role for the logged user's company.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -106,8 +92,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/company/role/{role_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/company/role/{role_id}" %}<br/>{% api-method-summary %}
 Updates an existing role for the company.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -140,8 +125,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/company/role/{role_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/company/role/{role_id}" %}<br/>{% api-method-summary %}
 Delete an existing role for the company.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -172,8 +156,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/company/role/{role_id}/user/{user_id}" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/company/role/{role_id}/user/{user_id}" %}<br/>{% api-method-summary %}
 Assign a role to a user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -206,8 +189,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/company/role/{role_id}/user/{user_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/company/role/{role_id}/user/{user_id}" %}<br/>{% api-method-summary %}
 Removes a role from a user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -240,8 +222,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/token" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/token" %}<br/>{% api-method-summary %}
 Get authentication token.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -274,8 +255,7 @@ Unauthorized
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/user" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/user" %}<br/>{% api-method-summary %}
 Create a new user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -306,8 +286,7 @@ Unsuccessful request. The error is returned in the 'error' field.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/user" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/user" %}<br/>{% api-method-summary %}
 Get logged in user's details.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -315,14 +294,6 @@ Returns the details of the logged in user.
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -336,8 +307,7 @@ Unauthorized
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/user" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/user" %}<br/>{% api-method-summary %}
 Update the details of the logged in user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -368,8 +338,7 @@ Unauthorized
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/user" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/user" %}<br/>{% api-method-summary %}
 CAUTION: Deletes logged in user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -377,14 +346,6 @@ Deletes the logged in user and all his/her resources - DANGER to suspend importa
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -398,8 +359,7 @@ Unauthorized access.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/resetPassword" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/resetPassword" %}<br/>{% api-method-summary %}
 Resets user's password.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -434,8 +394,7 @@ Out of service.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/projects" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/projects" %}<br/>{% api-method-summary %}
 Get user's projects.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -443,14 +402,6 @@ Returns a list of all projects that the user is authorized for.
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -464,8 +415,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/favorites" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/favorites" %}<br/>{% api-method-summary %}
 Get user's favorite data points.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -473,14 +423,6 @@ Returns a list of data points that the user marked as his/her favorites.
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -494,8 +436,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/user/plotview" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/user/plotview" %}<br/>{% api-method-summary %}
 Add a plotview.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -526,8 +467,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/plotviews" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/user/plotviews" %}<br/>{% api-method-summary %}
 Get user's plotviews.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -535,14 +475,6 @@ Returns a list of all plotviews that the user has specified or shared.
 {% endapi-method-description %}
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% endapi-method-path-parameters %}
-{% api-method-headers %}
-{% endapi-method-headers %}
-{% api-method-query-parameters %}
-{% endapi-method-query-parameters %}
-{% api-method-body-parameters %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -556,8 +488,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/user/plotview/{plotview_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/user/plotview/{plotview_id}" %}<br/>{% api-method-summary %}
 Update a plotview.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -590,8 +521,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/user/plotview/{plotview_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/user/plotview/{plotview_id}" %}<br/>{% api-method-summary %}
 Delete a plotview.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -622,8 +552,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project" %}<br/>{% api-method-summary %}
 Create a new project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -654,8 +583,7 @@ Unsuccessful request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}<br/>{% api-method-summary %}
 Get project's details.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -686,8 +614,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}<br/>{% api-method-summary %}
 Update project's details.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -720,8 +647,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}" %}<br/>{% api-method-summary %}
 Delete project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -752,8 +678,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/roles" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/roles" %}<br/>{% api-method-summary %}
 Get all roles defined in the project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -784,8 +709,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/role" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/role" %}<br/>{% api-method-summary %}
 Create a new role for this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -818,8 +742,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/role/{role_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/role/{role_id}" %}<br/>{% api-method-summary %}
 Updates an existing role for this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -854,8 +777,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/role/{role_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/role/{role_id}" %}<br/>{% api-method-summary %}
 Delete an existing role for this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -888,8 +810,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/role/{role_id}/user/{user_id}" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/role/{role_id}/user/{user_id}" %}<br/>{% api-method-summary %}
 Assign a role to a user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -922,8 +843,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/role/{role_id}/user/{user_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/role/{role_id}/user/{user_id}" %}<br/>{% api-method-summary %}
 Removes a role from a user.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -956,8 +876,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey" %}<br/>{% api-method-summary %}
 Create new data point key in project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -990,8 +909,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkeys" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkeys" %}<br/>{% api-method-summary %}
 Get list of data point keys associated with project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1022,8 +940,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey/{datapointkey_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey/{datapointkey_id}" %}<br/>{% api-method-summary %}
 Updates a data point key.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1058,8 +975,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey/{datapointkey_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapointkey/{datapointkey_id}" %}<br/>{% api-method-summary %}
 Deletes a data point key associated with the project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1092,8 +1008,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints" %}<br/>{% api-method-summary %}
 Get list of data points in this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1124,8 +1039,7 @@ Unsuccessful operation. Details on the error are returned in the 'error' field.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/favorites" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/favorites" %}<br/>{% api-method-summary %}
 Get list of favorited data points in this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1156,8 +1070,7 @@ Unsuccessful operation. Details on the error are returned in the 'error' field.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/renamings" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/renamings" %}<br/>{% api-method-summary %}
 Get list of data points and their renamings in this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1190,8 +1103,7 @@ Unsuccessful operation. Details on the error are returned in the 'error' field.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag" %}<br/>{% api-method-summary %}
 Create a new tag.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1224,8 +1136,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/tags" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/tags" %}<br/>{% api-method-summary %}
 Get all data point tags in this project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1256,8 +1167,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag/{tag_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag/{tag_id}" %}<br/>{% api-method-summary %}
 Update an existing tag.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1292,8 +1202,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag/{tag_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/tag/{tag_id}" %}<br/>{% api-method-summary %}
 Delete a tag.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1326,8 +1235,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/byTag" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/datapoints/byTag" %}<br/>{% api-method-summary %}
 Get all data points in this project with a given tag.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1366,8 +1274,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert" %}<br/>{% api-method-summary %}
 Create a new alert.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1424,8 +1331,7 @@ Unsuccessful request. The error is returned in the 'error' field and 'operation'
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/alerts" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/alerts" %}<br/>{% api-method-summary %}
 Get all alerts in a project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1456,8 +1362,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}" %}<br/>{% api-method-summary %}
 Edit an Alert.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1494,8 +1399,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}" %}<br/>{% api-method-summary %}
 Delete an alert.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1531,8 +1435,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}/toggle" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/alert/{alert_id}/toggle" %}<br/>{% api-method-summary %}
 Enable or disable an alert.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1565,8 +1468,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/importTimeseries" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/importTimeseries" %}<br/>{% api-method-summary %}
 Imports timeseries data from a file
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1601,8 +1503,7 @@ Unsuccessful request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/" %}<br/>{% api-method-summary %}
 Add a new component.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1637,8 +1538,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}<br/>{% api-method-summary %}
 Get a component for the specified project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1671,8 +1571,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}<br/>{% api-method-summary %}
 Edit a component in the specified project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1707,8 +1606,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/{componentinproject_id}" %}<br/>{% api-method-summary %}
 Delete a component in the specified project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1742,8 +1640,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/components" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/project/{project_id}/components" %}<br/>{% api-method-summary %}
 Get all components in a project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1774,8 +1671,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}<br/>{% api-method-summary %}
 Connects a datapoint to a component's pin.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1812,8 +1708,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}<br/>{% api-method-summary %}
 Edits a datapoint on a component pin in the specified project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1850,8 +1745,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/project/{project_id}/component/pin/datapoint" %}<br/>{% api-method-summary %}
 Delete a datapoint on component pin for the project.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1887,8 +1781,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint" %}<br/>{% api-method-summary %}
 Get details about data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1921,8 +1814,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint" %}<br/>{% api-method-summary %}
 Change datapoint details.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -1957,8 +1849,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint/timeseries" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint/timeseries" %}<br/>{% api-method-summary %}
 Get the time series data of a data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2003,8 +1894,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/favorite" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/favorite" %}<br/>{% api-method-summary %}
 Set a data point as personal favorite.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2037,8 +1927,7 @@ Unsuccessful operation. Details on the error are returned in the 'error' field.
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/favorite" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/favorite" %}<br/>{% api-method-summary %}
 Remove a personal favorite data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2071,8 +1960,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/renaming" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/renaming" %}<br/>{% api-method-summary %}
 Add an alternative name associated with a specific data point key for a data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2103,8 +1991,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/renaming/{renaming_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/renaming/{renaming_id}" %}<br/>{% api-method-summary %}
 Change a renaming.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2137,8 +2024,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/renaming/{renaming_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/renaming/{renaming_id}" %}<br/>{% api-method-summary %}
 Delete an alternative name for a given data point under a given data point key.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2169,8 +2055,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/tag" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/tag" %}<br/>{% api-method-summary %}
 Add a tag.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2205,8 +2090,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/tag/{tag_id}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/tag/{tag_id}" %}<br/>{% api-method-summary %}
 Update tag associated with data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2247,8 +2131,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/tag/{tag_id}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/tag/{tag_id}" %}<br/>{% api-method-summary %}
 Remove tag from data point.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2287,8 +2170,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/setpoint" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/setpoint" %}<br/>{% api-method-summary %}
 Write a setpoint.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2334,8 +2216,7 @@ Unsuccessful request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/schedule" %}
-{% api-method-summary %}
+{% api-method method="post" host="https://api.aedifion.io" path="/v2/datapoint/schedule" %}<br/>{% api-method-summary %}
 Write a schedule of setpoints for given datapoint.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2376,8 +2257,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}<br/>{% api-method-summary %}
 Gets details of referenced schedule.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2413,8 +2293,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-{% api-method-summary %}
+{% api-method method="put" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}<br/>{% api-method-summary %}
 Updates the referenced schedule.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2452,8 +2331,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}
-{% api-method-summary %}
+{% api-method method="delete" host="https://api.aedifion.io" path="/v2/datapoint/schedule/{reference}" %}<br/>{% api-method-summary %}
 Delete a schedule.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2489,8 +2367,7 @@ Details on the error are returned in the 'error' field of the response and 'oper
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/components" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/components" %}<br/>{% api-method-summary %}
 Get all available components.
 {% endapi-method-summary %}
 {% api-method-description %}
@@ -2511,8 +2388,7 @@ Unauthorized request. Details on the error are returned in the 'error' field of 
 {% endapi-method-response-example %}
 {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="get" host="https://api.aedifion.io" path="/v2/component/{component_id}/pins" %}
-{% api-method-summary %}
+{% api-method method="get" host="https://api.aedifion.io" path="/v2/component/{component_id}/pins" %}<br/>{% api-method-summary %}
 Get all pins and its attributes for the component.
 {% endapi-method-summary %}
 {% api-method-description %}
