@@ -16,6 +16,7 @@ Get a list of available endpoints.
 {% endapi-method-response-example-description %}
 ```
 
+```
 
 <br/>{% endapi-method-response-example %}
 <br/>{% api-method-response-example httpCode=401 %}
@@ -24,6 +25,7 @@ Get a list of available endpoints.
 {% endapi-method-response-example-description %}
 ```
 
+```
 
 <br/>{% endapi-method-response-example %}
 <br/>{% endapi-method-response %}
