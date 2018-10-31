@@ -21,4 +21,25 @@ Get a list of available endpoints.
 <br/>{% endapi-method-response-example %}
 <br/>{% endapi-method-spec %}
 <br/>{% endapi-method %}
-
+<br/>{% api-method method="get" host="https://api.aedifion.io" path="/v2/company" %}
+<br/>{% api-method-summary %}<br/>
+Get all projects and users defined in the company.
+<br/>{% endapi-method-summary %}
+<br/>{% api-method-description %}
+<br/>Returns a list of projects and users defined for the queried company.
+<br/>{% endapi-method-description %}
+<br/>{% api-method-spec %}
+<br/>{% api-method-request %}
+<br/>{% endapi-method-request %}
+<br/>{% api-method-response %}
+<br/>{% api-method-response-example httpCode=200 %}
+<br/>{% api-method-response-example-description %}
+<br/>Successful operation. Returns a list of roles in the queried project.
+{% endapi-method-response-example-description %}
+<br/>{% api-method-response-example httpCode=401 %}
+<br/>{% api-method-response-example-description %}
+<br/>Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to 'get'.
+{% endapi-method-response-example-description %}
+<br/>{% endapi-method-response-example %}
+<br/>{% endapi-method-spec %}
+<br/>{% endapi-method %}
