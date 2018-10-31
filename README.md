@@ -1,5 +1,7 @@
 # Initial page
 
+Henrik: Added paragraph.
+
 {% api-method method="head" host="https://api.aedifion.io" path="/v2/user" %}
 {% api-method-summary %}
 Get Cakes
@@ -67,4 +69,16 @@ Could not find a cake matching this query.
 {% endapi-method %}
 
 * new stuff?? :\) what happens to this
+
+Henrik: Adding a table below.
+
+| Column1 | Column2 |
+| :---: | :---: |
+| asdf | asdf |
+
+And a page link.
+
+{% page-ref page="./" %}
+
+
 
