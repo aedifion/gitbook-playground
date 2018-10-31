@@ -186,7 +186,7 @@ Updates an existing role for the company.
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="role\_definition" type="None" required=true %}
+{% api-method-parameter name="role\_definition" type="object" required=true %}
 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
