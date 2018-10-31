@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="https://api.aedifion.io" path="/v2/meta/endpoints" %}
 {% api-method-summary %}
-Get Cakes
+Get a list of available endpoints
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+Returns a list of available IDs and their names
 {% endapi-method-description %}
 
 {% api-method-spec %}
