@@ -14,11 +14,17 @@ Get a list of available endpoints.
 <br/>{% api-method-response-example-description %}
 <br/>Successful operation. A list of all available endpoint IDs and their names is returned.
 {% endapi-method-response-example-description %}
+```
+
+
 <br/>{% endapi-method-response-example %}
 <br/>{% api-method-response-example httpCode=401 %}
 <br/>{% api-method-response-example-description %}
 <br/>Unauthorized request. Details on the error are returned in the 'error' field of the response and 'operation' is set to get.
 {% endapi-method-response-example-description %}
+```
+
+
 <br/>{% endapi-method-response-example %}
 <br/>{% endapi-method-response %}
 <br/>{% endapi-method-spec %}
