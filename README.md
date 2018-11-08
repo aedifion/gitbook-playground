@@ -7,8 +7,6 @@
 <br/>Returns a list of available endpoint IDs and their names.
 <br/>{% endapi-method-description %}
 <br/>{% api-method-spec %}
-<br/>{% api-method-request %}
-<br/>{% endapi-method-request %}
 <br/>{% api-method-response %}
 <br/>{% api-method-response-example httpCode=200 %}
 <br/>{% api-method-response-example-description %}
